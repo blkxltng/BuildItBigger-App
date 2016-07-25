@@ -39,7 +39,7 @@ dependencies {
     compile project(':javajokes')
     compile project(':jokelibrary')
     compile 'com.android.support:appcompat-v7:24.1.0'
-    compile 'com.google.android.gms:play-services:9.2.1'
+    freeCompile 'com.google.android.gms:play-services:9.2.1'
     compile project(path: ':backend', configuration: 'android-endpoints')
 
     compile 'com.android.support:multidex:1.0.0'
